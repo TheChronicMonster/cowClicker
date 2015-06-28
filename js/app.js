@@ -14,3 +14,11 @@ function pigClicker() {
 		document.getElementById("pigNumber").innerHTML = pigCounter;
 	}
 }
+
+var clicks = 0;
+function clickCounter() {
+	if (true) {
+		this.clicks += 1;
+		document.getElementById("Number").innerHTML = this.clicks;
+	}
+}
